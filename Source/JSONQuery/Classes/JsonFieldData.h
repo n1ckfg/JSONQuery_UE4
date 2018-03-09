@@ -408,4 +408,8 @@ public:
 	*/
 	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Get JSON Request", HidePin = "WorldContextObject", DefaultToSelf = "WorldContextObject"), Category = "JSON")
 	static UJsonFieldData* GetRequest(UObject* WorldContextObject, const FString& url);
+
+	// Saves text input to a file.
+	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Save String to File"), Category = "JSON")
+	static bool SaveStringTextToFile(FString SaveDirectory, FString FileName, FString SaveText, bool AllowOverWriting = false);
 };
