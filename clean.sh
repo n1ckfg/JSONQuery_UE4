@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ~ ~ ~ ~ ~ ~ ~ 
-#PLUGINS=( "jsonquery" )
+PLUGINS=( "JSONQuery" )
 # ~ ~ ~ ~ ~ ~ ~ 
 
 SOURCE="${BASH_SOURCE[0]}"
@@ -26,8 +26,8 @@ rm -f Makefile
 
 for PLUGIN in ${PLUGINS[@]}
 do
-    rm -rf "Plugins/"$PLUGIN"_unreal_plugin/Binaries"
-    rm -rf "Plugins/"$PLUGIN"_unreal_plugin/DerivedDataCache"
-    rm -rf "Plugins/"$PLUGIN"_unreal_plugin/Intermediate"
-    rm -rf "Plugins/"$PLUGIN"_unreal_plugin/Saved"
+    rm -rf "Plugins/"$PLUGIN"/Binaries"
+    rm -rf "Plugins/"$PLUGIN"/DerivedDataCache"
+    rm -rf "Plugins/"$PLUGIN"/Intermediate"
+    rm -rf "Plugins/"$PLUGIN"/Saved"
 done
