@@ -428,8 +428,6 @@ OTHER_FILES += \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperTiledImporter/PaperTiledImporter.Build.cs" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SmartSnapping/SmartSnapping.Build.cs" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SpriterImporter/SpriterImporter.Build.cs" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirSim.Build.4.15.cs" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirSim.Build.cs" \
 	"$$unrealRootPath/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor/LightPropagationVolumeEditor.Build.cs" \
 	"$$unrealRootPath/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeRuntime/LightPropagationVolumeRuntime.Build.cs" \
 	"$$unrealRootPath/Engine/Plugins/Compositing/Composure/Source/Composure/Composure.Build.cs" \

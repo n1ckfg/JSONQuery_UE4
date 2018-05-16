@@ -5866,44 +5866,6 @@ SOURCES += \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SpriterImporter/Private/SpriterDataModel.cpp" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SpriterImporter/Private/SpriterImporterFactory.cpp" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SpriterImporter/Private/SpriterImporterModule.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirBlueprintLib.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirSim.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirSimGameMode.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/CameraDirector.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/ManualPoseController.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/NedTransform.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/PIPCamera.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/RenderRequest.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/UnrealImageCapture.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/VehiclePawnWrapper.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/api/RpcLibClientBase.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/api/RpcLibServerBase.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/common/common_utils/FileSystem.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/safety/ObstacleMap.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/safety/SafetyEval.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/vehicles/car/api/CarRpcLibClient.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/vehicles/car/api/CarRpcLibServer.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/vehicles/multirotor/api/MultirotorRpcLibClient.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/vehicles/multirotor/api/MultirotorRpcLibServer.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/AirLib/src/vehicles/multirotor/controllers/DroneControllerBase.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Car/CarPawn.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Car/CarPawnApi.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Car/CarWheelFront.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Car/CarWheelRear.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Car/SimModeCar.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Multirotor/FlyingPawn.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Multirotor/MultiRotorConnector.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Multirotor/SimModeWorldMultiRotor.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Recording/RecordingFile.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/Recording/RecordingThread.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/SimHUD/SimHUD.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/SimHUD/SimHUDWidget.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/SimJoyStick/DirectInputJoyStick.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/SimJoyStick/SimJoyStick.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/SimMode/SimModeBase.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/SimMode/SimModeWorldBase.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/UnrealSensors/UnrealDistanceSensor.cpp" \
-	"$$unrealRootPath/Engine/Plugins/AirSim/Source/UnrealSensors/UnrealSensorFactory.cpp" \
 	"$$unrealRootPath/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor/Private/LightPropagationVolumeEditorModule.cpp" \
 	"$$unrealRootPath/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeRuntime/Private/LightPropagationVolumeRuntimeModule.cpp" \
 	"$$unrealRootPath/Engine/Plugins/Compositing/Composure/Source/Composure/Private/Composure.cpp" \
