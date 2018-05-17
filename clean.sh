@@ -1,33 +1,26 @@
 #!/bin/bash
 
-# ~ ~ ~ ~ ~ ~ ~ 
-PLUGINS=( "JSONQuery" )
-# ~ ~ ~ ~ ~ ~ ~ 
-
-SOURCE="${BASH_SOURCE[0]}"
-while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a syml$
-  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
-  SOURCE="$(readlink "$SOURCE")"
-  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative syml$
-done
-
-DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
-PROJECT=$(basename $DIR)
-
-# Removing this line from the .uproject forces a rebuild
-sed -i '/EngineAssociation/d' ./$PROJECT.uproject
-
 rm -rf Binaries
 rm -rf DerivedDataCache
 rm -rf Intermediate
 rm -rf Saved
-rm -f CMakeLists.txt
-rm -f Makefile
+#rm -f CMakeLists.txt
+#rm -f Makefile
+#rm -f *.workspace
+#rm -f *.pri
+#rm -f *.kdev4
+#rm -f *.pro
+#rm -f *CodeCompletionFolders.txt
+#rm -f *CodeLitePreProcessor.txt
 
-for PLUGIN in ${PLUGINS[@]}
-do
-    rm -rf "Plugins/"$PLUGIN"/Binaries"
-    rm -rf "Plugins/"$PLUGIN"/DerivedDataCache"
-    rm -rf "Plugins/"$PLUGIN"/Intermediate"
-    rm -rf "Plugins/"$PLUGIN"/Saved"
+for d in ./Plugins/*; do
+  if [ -d "$d" ]; then
+    rm -rf $d"/Binaries"
+    rm -rf $d"/DerivedDataCache"
+    rm -rf $d"/Intermediate"
+    rm -rf $d"/Saved"
+  fi
 done
+
+
+
