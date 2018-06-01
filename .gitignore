@@ -75,3 +75,10 @@ Intermediate/*
 DerivedDataCache/*
 
 .DS_Store
+*.pri
+*.pro
+*.kdev4
+*.workspace
+*CodeCompletionFolders.txt
+*CodeLitePreProcessor.txt
+Makefile
